@@ -1,0 +1,13 @@
+.contenedor{
+    display: flex;
+    align-items: baseline;
+    padding: 10x;
+    justify-content:space-between;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.elemento{
+    text-aling:center;
+    flex-grow: 1;
+}
