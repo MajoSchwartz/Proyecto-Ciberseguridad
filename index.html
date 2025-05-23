@@ -1,21 +1,51 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8"> <!---Se utiliza para poder habilitar los caracteres especiales de una página web.--->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!---Para que se ajuste a todos los dispositivos y poder verlo correctamente --->
-    <title>Document</title>
+    <meta charset="UTF-8"> <!--Se utiliza para poder habilitar los caracteres especiales de una página web.-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--Para que se ajuste a todos los dispositivos y poder verlo correctamente -->
+    <title>Inicio - Ciberseguridad</title>
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+        body{
+            background-color: #dadfec
+        }
+    </style>
+
 </head>
+
 <body>
-    <header>
-        <h1>INICIO</h1>
+
+    <nav class="nav">
+        <a href="index.html">INICIO</a>
+        <a href="informacion.html">INFORMACIÓN</a>
+        <a href="galeria.html">GALERÍA</a>
+    </nav>
+
+    <header class="bienvenida">
+        <h1>Bienvenidos a nuestro sitio de Ciberseguridad</h1>
+        <p style="font-size: 20px;">Descubre cómo protegerte en el mundo digital.</p>
     </header>
-    <h1>¡Bienvenido!</h1>
-    <h2>¿Listo para aprender de Ciberseguridad?</h2>
-    <p>Es importante conocer sobre Ciberseguridad porque con ella puedes proteger tu información digital, dispositivos y activos.</p>
-    <h3>Presiona en cuqluiera de las opciones para aprender más.</h3>
-     <a href="informacion.html">INFORMACIÓN</a>
-     <a href="galeria.html">GALERÍA</a>
-     <link rel="stylesheet" href="style.css">
-    
+
+    <h2>Descrubre lo que podrás observar en esta página</h2>
+
+    <section class="contenido">
+        <div class="caja">
+            <h2>Conceptos clave</h2>
+            <p>Aprende qué es la ciberseguridad, por qué es importante y cuáles son sus pilares fundamentales.</p>
+        </div>
+
+        <div class="caja">
+            <h2>Amenazas comunes</h2>
+            <p>Descubre los tipos más frecuentes de ataques, como el phishing, malware y ransomware.</p>
+        </div>
+
+        <div class="caja">
+            <h2>Consejos prácticos</h2>
+            <p>Explora acciones sencillas para mantener tu información personal segura en línea.</p>
+        </div>
+    </section>
+     
+        
 </body>
 </html>

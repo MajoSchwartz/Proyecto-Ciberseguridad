@@ -8,6 +8,41 @@
 }
 
 .elemento{
-    text-aling:center;
+    text-align:center;
     flex-grow: 1;
+}
+
+.nav a{
+    color: white;
+    background-color: #52586a;
+    padding: 10px 20px;
+    border-radius: 10px;
+    text-decoration: none;
+    margin: 5px;
+}
+
+.nav a:hover{
+    background-color: #3d4152;
+}
+
+.bienvenida {
+    display: flex; /*Para activar la configuración de flexbox*/
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 30px
+}
+
+.contenido {
+    display: grid; /*Para activar la configuración de grid*/
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+.caja {
+  background-color: #ddd;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
 }
