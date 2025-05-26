@@ -120,7 +120,8 @@ p{
     box-sizing: border-box;
 }
 
-.titulo{
+.titulogal{
     background-color: cadetblue;
     text-align: center;
+    font-size: larger;
 }
