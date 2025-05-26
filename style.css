@@ -53,3 +53,23 @@
     margin-top: 20px;
 }
 
+.cajita{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15px;
+    padding: 20px;
+}
+.imagen1{
+    width: 300px;
+    height: 350px;
+    padding: 2%;
+    border: 7px;
+    background-color: cadetblue;
+    box-sizing: border-box;
+}
+
+.titulo{
+    background-color: cadetblue;
+    text-align: center;
+}
