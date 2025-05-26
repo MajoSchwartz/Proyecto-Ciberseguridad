@@ -120,8 +120,29 @@ p{
     box-sizing: border-box;
 }
 
+
 .titulogal{
     background-color: cadetblue;
     text-align: center;
     font-size: larger;
+    font-weight: 200;
+    padding: 2%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.cajita2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.imagen2p {
+    width: 350px;
+    height: 300px;
+    padding: 2%;
+    border: 7px solid;
+    background-color: cadetblue;
+    box-sizing: border-box;
 }
