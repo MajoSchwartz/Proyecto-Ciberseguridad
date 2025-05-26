@@ -139,10 +139,10 @@ p{
 }
 
 .imagen2p {
-    width: 350px;
-    height: 300px;
+    width: 420px;
+    height: 350px;
     padding: 2%;
-    border: 7px solid;
+    border: 7px;
     background-color: cadetblue;
     box-sizing: border-box;
 }
